@@ -3344,6 +3344,7 @@ body-webkit-scrollbar-thumb {
 /* Track */
 body::-webkit-scrollbar-track {
   background-color: #f1f1f1; /* Color of the scrollbar track */
+  height:100px;
 }
 
 /* Handle on hover */
