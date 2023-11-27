@@ -3338,7 +3338,7 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body-webkit-scrollbar-thumb {
-  background-color:#000; /* Color of the scrollbar handle */
+  background-color:#fff; /* Color of the scrollbar handle */
   border-radius: 6px; /* Radius of the scrollbar handle */
 }
 
