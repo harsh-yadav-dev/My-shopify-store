@@ -3324,7 +3324,7 @@ details-disclosure > details {
   }
 }
 body::-webkit-scrollbar {
-  width: 17px !important; /* Set the width of the scrollbar */
+  width: 7px !important; /* Set the width of the scrollbar */
 }
 body::-webkit-scrollbar-track {
  background:linear-gradient(45deg, black, transparent); /* Color of the scrollbar track */
