@@ -3329,7 +3329,7 @@ body::-webkit-scrollbar {
   /* background-color:#000; */
 }
 body::-webkit-scrollbar-track {
- background-color:#000; /* Color of the scrollbar track */
+ /* background-color:#000; /* Color of the scrollbar track */ */
 }
 /* 
 ::-webkit-scrollbar {
@@ -3342,13 +3342,13 @@ body-webkit-scrollbar-thumb {
   border-radius: 6px; /* Radius of the scrollbar handle */
 }
 
-/* Track */
-body::-webkit-scrollbar-track {
+/* /* Track */
+/* body::-webkit-scrollbar-track {
   background-color: #f1f1f1; /* Color of the scrollbar track */
-  height:100px;
-}
+  /* height:100px; */
+} */
 
 /* Handle on hover */
-body::-webkit-scrollbar-thumb:hover {
+/* body::-webkit-scrollbar-thumb:hover {
   background-color: #555; /* Change color on hover */
-}
+} */ */
