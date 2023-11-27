@@ -3328,7 +3328,7 @@ body::-webkit-scrollbar {
   height:100px!important;
 }
 body::-webkit-scrollbar-track {
- background:linear-gradient(45deg, black, transparent); /* Color of the scrollbar track */
+ background:black; /* Color of the scrollbar track */
 }
 /* 
 ::-webkit-scrollbar {
