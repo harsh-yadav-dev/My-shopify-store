@@ -3326,9 +3326,10 @@ details-disclosure > details {
 body::-webkit-scrollbar {
   width: 7px !important; /* Set the width of the scrollbar */
   height:100px!important;
+  background-color:#fff;
 }
 body::-webkit-scrollbar-track {
- background:black; /* Color of the scrollbar track */
+ background-color:#fff; /* Color of the scrollbar track */
 }
 /* 
 ::-webkit-scrollbar {
@@ -3337,7 +3338,7 @@ body::-webkit-scrollbar-track {
 
 /* Handle */
 body-webkit-scrollbar-thumb {
-  background-color: #888; /* Color of the scrollbar handle */
+  background-color:#000; /* Color of the scrollbar handle */
   border-radius: 6px; /* Radius of the scrollbar handle */
 }
 
