@@ -3327,5 +3327,5 @@ body::-webkit-scrollbar {
   width: 17px !important; /* Set the width of the scrollbar */
 }
 body::-webkit-scrollbar-track {
-  background-color: #000; /* Color of the scrollbar track */
+  background-color: linear-gradient(#000;#fff) /* Color of the scrollbar track */
 }
