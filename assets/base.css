@@ -3323,3 +3323,6 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
+body::-webkit-scrollbar {
+  width: 7px !important; /* Set the width of the scrollbar */
+}
