@@ -264,7 +264,7 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-    <h1>{{ shop.url }}</h1>
+    
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -320,6 +320,11 @@
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 <!-- cart drawer -->
+ <script>
+ var client_name = {{shop.url}}
+ 
+
+ </script>
  <script src="https://harshique.github.io/harsh_slider_cart/js/sliderhislider.js" ></script>
     
     <!-- ends -->
